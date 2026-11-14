@@ -1,0 +1,28 @@
+{
+  "name": "parking-violation-tracker",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN Web Application: Parking Violation Tracker with Automata DFA Validation, 5-Category Classification, and 6-Zone Deterministic Routing",
+  "scripts": {
+    "start:backend": "npm start --prefix backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "start:frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test:all": "node backend/test-runner-cli.js",
+    "test:python": "python dfa_validation.py"
+  },
+  "keywords": [
+    "mern",
+    "parking-violation-tracker",
+    "automata-theory",
+    "dfa",
+    "karnataka-vehicle-validation",
+    "deterministic-routing",
+    "mongodb",
+    "express",
+    "react",
+    "vite"
+  ],
+  "author": "Senior Full-Stack MERN Developer",
+  "license": "ISC"
+}
